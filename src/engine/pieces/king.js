@@ -11,6 +11,7 @@ export default class King extends Piece {
             .filter(square => Math.max(
                 Math.abs(current.row - square.row),
                 Math.abs(current.col-square.col))
-                === 1);
+                === 1)
+            .filter(end => board.isValidTarget(this.player, end));
     }
 }
