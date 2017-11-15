@@ -6,6 +6,11 @@ export default class King extends Piece {
     }
 
     getAvailableMoves(board) {
-        return new Array(0);
+        const current = board.findPiece(this);
+        return board.getSquares()
+            .filter(square => Math.max(
+                Math.abs(current.row - square.row),
+                Math.abs(current.col-square.col))
+                === 1);
     }
 }
