@@ -10,6 +10,7 @@ export default class Rook extends Piece {
         let start = board.findPiece(this);
         let squares = board.getSquares();
         return squares.filter(square => square.isLateral(start) && !square.equals(start))
-            .filter(end => board.canMoveBetween(start, end)).filter(end => board.isValidTarget(this.player, end));
+            .filter(end => board.canMoveBetween(start, end))
+            .filter(end => board.isValidTarget(this.player, end));
     }
 }

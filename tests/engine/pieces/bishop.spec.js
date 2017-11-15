@@ -1,6 +1,7 @@
 import 'chai/register-should';
 import Bishop from '../../../src/engine/pieces/bishop';
 import Pawn from '../../../src/engine/pieces/pawn';
+import King from '../../../src/engine/pieces/king';
 import Player from '../../../src/engine/player';
 import Square from '../../../src/engine/square';
 import Board from '../../../src/engine/board';
