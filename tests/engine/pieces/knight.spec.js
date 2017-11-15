@@ -56,4 +56,37 @@ describe('Knight', () => {
 
         moves.should.deep.have.members(expectedMoves);
     });
+
+    it('can take opposing pieces', () => {
+        const knight = new Knight(Player.WHITE);
+        const opposingPiece = new Pawn(Player.BLACK);
+        board.setPiece(Square.at(4, 4), knight);
+        board.setPiece(Square.at(6, 6), opposingPiece);
+
+        const moves = knight.getAvailableMoves(board);
+
+        moves.should.deep.include(Square.at(5, 6));
+    });
+
+    it('cannot take the king', () => {
+        const knight = new Knight(Player.WHITE);
+        const opposingPiece = new King(Player.BLACK);
+        board.setPiece(Square.at(4, 4), knight);
+        board.setPiece(Square.at(5, 6), opposingPiece);
+
+        const moves = knight.getAvailableMoves(board);
+
+        moves.should.not.deep.include(Square.at(5, 6));
+    });
+
+    it('cannot take friendly pieces', () => {
+        const knight = new Knight(Player.WHITE);
+        const opposingPiece = new Pawn(Player.WHITE);
+        board.setPiece(Square.at(4, 4), knight);
+        board.setPiece(Square.at(5, 6), opposingPiece);
+
+        const moves = knight.getAvailableMoves(board);
+
+        moves.should.not.deep.include(Square.at(5, 6));
+    });
 });
