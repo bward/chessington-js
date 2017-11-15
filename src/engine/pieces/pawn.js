@@ -15,29 +15,15 @@ export default class Pawn extends Piece {
 
     getAvailableMoves(board) {
         let square  = board.findPiece(this);
-        let moves = [];
-        let captureSquares = [];
+        let sign = (this.player === Player.WHITE) ? 1 : -1;
 
-        if (this.player === Player.WHITE) {
-            // if (board.findPiece(this).row === 7) {
-            //     return moves;
-            // }
-            moves = [Square.at(square.row+1, square.col)];
-            moves = moves.concat(this.hasMoved? [] : [Square.at(square.row+2, square.col)]);
+        let moves = [Square.at(square.row+sign, square.col)];
+        moves = moves.concat(this.hasMoved? [] : [Square.at(square.row+sign*2, square.col)]);
 
-            captureSquares = [Square.at(square.row+1, square.col+1), Square.at(square.row+1, square.col-1)];
-        }
-        else {
-            // if (board.findPiece(this).row === 0) {
-            //     return moves;
-            // }
-            moves = [Square.at(square.row-1, square.col)];
-            moves = moves.concat(this.hasMoved? [] : [Square.at(square.row-2, square.col)]);
-            captureSquares = [Square.at(square.row-1, square.col+1), Square.at(square.row-1, square.col-1)];
-        }
+        let captureSquares = [Square.at(square.row+sign, square.col+1), Square.at(square.row+sign, square.col-1)];
+
         moves = moves.filter(board.isOnBoard.bind(board));
         captureSquares = captureSquares.filter(board.isOnBoard.bind(board));
-
 
         return moves.filter(end => board.canMoveBetween(square, end) && board.isEmpty(end))
             .concat(captureSquares.filter(target => board.isValidTarget(this.player, target) && !board.isEmpty(target)));
