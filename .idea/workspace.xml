@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8892f85e-0d6f-4079-8842-5e594bdba5a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/engine/pieces/king.js" afterPath="$PROJECT_DIR$/src/engine/pieces/king.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/engine/pieces/pawn.spec.js" afterPath="$PROJECT_DIR$/tests/engine/pieces/pawn.spec.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -55,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="king.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="king.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/engine/pieces/king.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -72,6 +72,19 @@
               <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pawn.spec.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/engine/pieces/pawn.spec.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="740">
+              <caret line="134" column="8" lean-forward="false" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
+              <folding>
+                <marker date="1510758547836" expanded="true" signature="400:1191" ph="{...}" />
+                <marker date="1510758547836" expanded="true" signature="2635:2641" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -107,18 +120,6 @@
             <state relative-caret-position="34">
               <caret line="2" column="48" lean-forward="false" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rook.spec.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/engine/pieces/rook.spec.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="60" column="4" lean-forward="false" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -159,6 +160,7 @@
         <option value="$PROJECT_DIR$/tests/engine/pieces/knight.spec.js" />
         <option value="$PROJECT_DIR$/tests/engine/pieces/king.spec.js" />
         <option value="$PROJECT_DIR$/src/engine/pieces/king.js" />
+        <option value="$PROJECT_DIR$/tests/engine/pieces/pawn.spec.js" />
       </list>
     </option>
   </component>
@@ -393,9 +395,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2017.11.15 at 14h 58m 10s.xml">
-      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="Unnamed - 2017.11.15 at 14h 59m 48s.xml">
       <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
     </history-entry>
@@ -423,9 +422,12 @@
     <history-entry file="Unnamed - 2017.11.15 at 15h 07m 32s.xml">
       <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
     </history-entry>
+    <history-entry file="Unnamed - 2017.11.15 at 15h 09m 08s.xml">
+      <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12022000" />
+    <option name="totallyTimeSpent" value="12120000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -507,8 +509,8 @@
         <state relative-caret-position="-7">
           <caret line="52" column="11" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
           <folding>
-            <marker date="1510757604953" expanded="true" signature="400:1191" ph="{...}" />
-            <marker date="1510757604953" expanded="true" signature="2635:2641" ph="{...}" />
+            <marker date="1510758547836" expanded="true" signature="400:1191" ph="{...}" />
+            <marker date="1510758547836" expanded="true" signature="2635:2641" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -596,8 +598,8 @@
         <state relative-caret-position="150">
           <caret line="65" column="7" lean-forward="false" selection-start-line="65" selection-start-column="7" selection-end-line="65" selection-end-column="7" />
           <folding>
-            <marker date="1510757604953" expanded="true" signature="400:1191" ph="{...}" />
-            <marker date="1510757604953" expanded="true" signature="2635:2641" ph="{...}" />
+            <marker date="1510758547836" expanded="true" signature="400:1191" ph="{...}" />
+            <marker date="1510758547836" expanded="true" signature="2635:2641" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -651,8 +653,8 @@
         <state relative-caret-position="68">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <marker date="1510757604953" expanded="true" signature="400:1191" ph="{...}" />
-            <marker date="1510757604953" expanded="true" signature="2635:2641" ph="{...}" />
+            <marker date="1510758547836" expanded="true" signature="400:1191" ph="{...}" />
+            <marker date="1510758547836" expanded="true" signature="2635:2641" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -779,8 +781,8 @@
         <state relative-caret-position="-7">
           <caret line="52" column="11" lean-forward="false" selection-start-line="52" selection-start-column="11" selection-end-line="52" selection-end-column="11" />
           <folding>
-            <marker date="1510757604953" expanded="true" signature="400:1191" ph="{...}" />
-            <marker date="1510757604953" expanded="true" signature="2635:2641" ph="{...}" />
+            <marker date="1510758547836" expanded="true" signature="400:1191" ph="{...}" />
+            <marker date="1510758547836" expanded="true" signature="2635:2641" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -815,17 +817,6 @@
           <caret line="24" column="7" lean-forward="false" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/engine/pieces/pawn.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="82" column="7" lean-forward="false" selection-start-line="82" selection-start-column="7" selection-end-line="82" selection-end-column="7" />
-          <folding>
-            <marker date="1510757604953" expanded="true" signature="400:1191" ph="{...}" />
-            <marker date="1510757604953" expanded="true" signature="2635:2641" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -881,16 +872,6 @@
         <state relative-caret-position="204">
           <caret line="13" column="66" lean-forward="false" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/engine/pieces/bishop.spec.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -953,6 +934,27 @@
         <state relative-caret-position="238">
           <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/engine/pieces/bishop.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/engine/pieces/pawn.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="134" column="8" lean-forward="false" selection-start-line="134" selection-start-column="8" selection-end-line="134" selection-end-column="8" />
+          <folding>
+            <marker date="1510758547836" expanded="true" signature="400:1191" ph="{...}" />
+            <marker date="1510758547836" expanded="true" signature="2635:2641" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
