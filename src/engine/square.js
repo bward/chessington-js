@@ -15,4 +15,12 @@ export default class Square {
     toString() {
         return `Row ${this.row}, Col ${this.col}`;
     }
+    
+    isLateral(square) {
+        return square.row === this.row || square.col === this.col;
+    }
+    
+    isDiagonal(square) {
+        return square.row + square.col === this.row + this.col || square.row - square.col === this.row - this.col;
+    }
 }

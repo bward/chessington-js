@@ -43,4 +43,14 @@ export default class Board {
             this.currentPlayer = (this.currentPlayer === Player.WHITE ? Player.BLACK : Player.WHITE);
         }
     }
+
+    getSquares() {
+        let squares = [];
+        for(let i = 0; i < GameSettings.BOARD_SIZE; i++) {
+            for(let j = 0; j < GameSettings.BOARD_SIZE; j++) {
+                squares.push(Square.at(i, j))
+            }
+        }
+        return squares;
+    }
 }
