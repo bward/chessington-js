@@ -24,6 +24,10 @@ export default class Board {
         return this.board[square.row][square.col];
     }
 
+    isEmpty(square) {
+        return this.getPiece(square) === undefined;
+    }
+
     findPiece(pieceToFind) {
         for (let row = 0; row < this.board.length; row++) {
             for (let col = 0; col < this.board[row].length; col++) {
@@ -52,5 +56,27 @@ export default class Board {
             }
         }
         return squares;
+    }
+
+    squaresBetween(square1, square2) {
+        const rowDiff = square1.row - square2.row;
+        const colDiff = square1.col - square2.col;
+
+        const rowDirection = Math.sign(rowDiff);
+        const colDirection = Math.sign(colDiff);
+        const distance = Math.max(Math.abs(rowDiff), Math.abs(colDiff));
+
+        let squares = [];
+
+        for (let i = 1; i < distance; i++) {
+            squares.push(Square.at(square1.row-rowDirection*i, square1.col-colDirection*i));
+        }
+
+        return squares;
+    }
+
+    canMoveBetween(square1, square2) {
+        let squares = this.squaresBetween(square1, square2);
+        return squares.every(this.isEmpty.bind(this));
     }
 }

@@ -23,4 +23,5 @@ export default class Square {
     isDiagonal(square) {
         return square.row + square.col === this.row + this.col || square.row - square.col === this.row - this.col;
     }
+
 }
