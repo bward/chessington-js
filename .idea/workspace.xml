@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8892f85e-0d6f-4079-8842-5e594bdba5a1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/engine/pieces/rook.spec.js" afterPath="$PROJECT_DIR$/tests/engine/pieces/rook.spec.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/engine/board.js" afterPath="$PROJECT_DIR$/src/engine/board.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/engine/pieces/piece.js" afterPath="$PROJECT_DIR$/src/engine/pieces/piece.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/engine/pieces/rook.js" afterPath="$PROJECT_DIR$/src/engine/pieces/rook.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +20,7 @@
         <entry file="file://$PROJECT_DIR$/src/engine/pieces/piece.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
-              <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -33,11 +36,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="board.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="board.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/engine/board.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+            <state relative-caret-position="545">
+              <caret line="92" column="25" lean-forward="false" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -45,12 +48,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rook.spec.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="rook.spec.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/engine/pieces/rook.spec.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-              <folding />
+            <state relative-caret-position="221">
+              <caret line="60" column="7" lean-forward="false" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -58,8 +63,8 @@
       <file leaf-file-name="rook.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/engine/pieces/rook.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="17">
+              <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -92,13 +97,13 @@
         <option value="$PROJECT_DIR$/src/engine/pieces/knight.js" />
         <option value="$PROJECT_DIR$/src/engine/pieces/king.js" />
         <option value="$PROJECT_DIR$/src/engine/square.js" />
-        <option value="$PROJECT_DIR$/src/engine/pieces/piece.js" />
-        <option value="$PROJECT_DIR$/src/engine/board.js" />
         <option value="$PROJECT_DIR$/src/engine/pieces/bishop.js" />
         <option value="$PROJECT_DIR$/src/engine/pieces/queen.js" />
         <option value="$PROJECT_DIR$/src/engine/pieces/pawn.js" />
-        <option value="$PROJECT_DIR$/src/engine/pieces/rook.js" />
         <option value="$PROJECT_DIR$/tests/engine/pieces/rook.spec.js" />
+        <option value="$PROJECT_DIR$/src/engine/pieces/piece.js" />
+        <option value="$PROJECT_DIR$/src/engine/pieces/rook.js" />
+        <option value="$PROJECT_DIR$/src/engine/board.js" />
       </list>
     </option>
   </component>
@@ -315,44 +320,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510742735782</updated>
-      <workItem from="1510742737188" duration="5392000" />
+      <workItem from="1510742737188" duration="6656000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unnamed - 2017.11.15 at 14h 06m 32s.xml">
+    <history-entry file="Unnamed - 2017.11.15 at 14h 44m 38s.xml">
       <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.11.15 at 14h 08m 11s.xml">
+    <history-entry file="Unnamed - 2017.11.15 at 14h 45m 11s.xml">
       <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.11.15 at 14h 08m 25s.xml">
+    <history-entry file="Unnamed - 2017.11.15 at 14h 45m 52s.xml">
       <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.11.15 at 14h 09m 19s.xml">
+    <history-entry file="Unnamed - 2017.11.15 at 14h 48m 54s.xml">
       <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.11.15 at 14h 15m 25s.xml">
+    <history-entry file="Unnamed - 2017.11.15 at 14h 49m 33s.xml">
       <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.11.15 at 14h 26m 09s.xml">
+    <history-entry file="Unnamed - 2017.11.15 at 14h 49m 53s.xml">
       <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.11.15 at 14h 27m 05s.xml">
+    <history-entry file="Unnamed - 2017.11.15 at 14h 50m 24s.xml">
       <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.11.15 at 14h 28m 03s.xml">
+    <history-entry file="Unnamed - 2017.11.15 at 14h 50m 43s.xml">
       <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.11.15 at 14h 30m 35s.xml">
+    <history-entry file="Unnamed - 2017.11.15 at 14h 51m 22s.xml">
       <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Unnamed - 2017.11.15 at 14h 30m 45s.xml">
+    <history-entry file="Unnamed - 2017.11.15 at 14h 52m 07s.xml">
       <configuration name="Unnamed" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9941000" />
+    <option name="totallyTimeSpent" value="11205000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="3192" y="-8" width="1936" height="1176" extended-state="6" />
@@ -411,7 +416,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="33" column="14" lean-forward="false" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
-          <folding />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -575,14 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/pieces/piece.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/engine/pieces/bishop.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -633,10 +632,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/engine/board.js">
+    <entry file="file://$PROJECT_DIR$/src/engine/pieces/piece.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
+        <state relative-caret-position="221">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/engine/pieces/rook.spec.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="60" column="7" lean-forward="false" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
@@ -645,19 +652,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/engine/pieces/rook.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="17">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/engine/pieces/rook.spec.js">
+    <entry file="file://$PROJECT_DIR$/src/engine/board.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="545">
+          <caret line="92" column="25" lean-forward="false" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

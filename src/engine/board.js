@@ -1,6 +1,7 @@
 import Player from './player';
 import GameSettings from './gameSettings';
 import Square from './square';
+import King from './pieces/king';
 
 export default class Board {
     constructor(currentPlayer) {
@@ -78,5 +79,19 @@ export default class Board {
     canMoveBetween(square1, square2) {
         let squares = this.squaresBetween(square1, square2);
         return squares.every(this.isEmpty.bind(this));
+    }
+
+    isValidTarget(player, square) {
+        let targetPiece = this.getPiece(square);
+        if(targetPiece === undefined){
+            return true;
+        }
+        if(targetPiece instanceof King){
+            return false;
+        }
+        if(player === targetPiece.player){
+            return false;
+        }
+        return true;
     }
 }
