@@ -62,7 +62,7 @@ describe('Knight', () => {
         const knight = new Knight(Player.WHITE);
         const opposingPiece = new Pawn(Player.BLACK);
         board.setPiece(Square.at(4, 4), knight);
-        board.setPiece(Square.at(6, 6), opposingPiece);
+        board.setPiece(Square.at(5, 6), opposingPiece);
 
         const moves = knight.getAvailableMoves(board);
 
