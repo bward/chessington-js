@@ -9,6 +9,7 @@ export default class Queen extends Piece {
         let start = board.findPiece(this)
         let squares = board.getSquares();
         return squares.filter(square => (square.isDiagonal(start) || square.isLateral(start)) && !square.equals(start))
-            .filter(end => board.canMoveBetween(start, end));
+            .filter(end => board.canMoveBetween(start, end))
+            .filter(end => board.isValidTarget(this.player, end));
     }
 }
